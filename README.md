@@ -1,5 +1,11 @@
 # RTL-to-GDSII Physical Design of a 4-bit ALU
 
+
+![RTL to GDSII](https://img.shields.io/badge/Flow-RTL%20%E2%86%92%20GDSII-0A66C2?style=for-the-badge)
+![DRC LVS](https://img.shields.io/badge/DRC%20%7C%20LVS-PASSED-success?style=for-the-badge)
+![Technology](https://img.shields.io/badge/Technology-OSU035-orange?style=for-the-badge)
+![Verilog](https://img.shields.io/badge/HDL-Verilog-blue?style=for-the-badge)
+
 ## Project Report
 
 ---
