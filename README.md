@@ -1516,3 +1516,6 @@ GDSII size           : ~309 KB
 ```
 
 ---
+## Final Layout
+
+![Final 4-bit ALU Layout](./img.png)
