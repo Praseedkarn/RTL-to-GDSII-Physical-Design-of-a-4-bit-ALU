@@ -1,0 +1,30 @@
+read_verilog ./rtl/alu.v
+
+hierarchy -top alu_4bit
+
+proc
+opt
+
+flatten
+opt
+
+# Technology mapping
+techmap
+
+# Optimize logic
+opt
+
+# Map flip-flops (if any)
+dfflibmap -liberty /usr/share/qflow/tech/osu035/osu035_stdcells.lib
+
+# Map combinational logic to OSU035 cells
+abc -liberty /usr/share/qflow/tech/osu035/osu035_stdcells.lib
+
+# Final cleanup
+clean
+
+# Generate mapped netlist
+write_verilog synthesis/alu_mapped.v
+
+# Show statistics
+stat

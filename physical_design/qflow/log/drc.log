@@ -1,0 +1,26 @@
+Qflow DRC logfile created on Saturday 22 August 2026 11:39:48 PM IST
+magic -dnull -noconsole  /home/praseed/4bit_ALU_PD/physical_design/qflow/layout/run_drc_alu_4bit.tcl
+
+Magic 8.3 revision 105 - Compiled on Mon, 06 Dec 2021 22:32:27 +0200.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "/home/praseed/4bit_ALU_PD/physical_design/qflow/layout/run_drc_alu_4bit.tcl" from command line.
+Reading LEF data from file /usr/share/qflow/tech/osu035/osu035_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 3179 lines.
+Scaled magic input cell alu_4bit geometry by factor of 2
+Processing timestamp mismatches: FILL, INVX2, NOR2X1, NAND2X1, OAI21X1, AOI21X1, INVX1, NAND3X1, AOI22X1, OAI22X1, AND2X2, BUFX2, OR2X2, NOR3X1, XNOR2X1.
+drc = 0
+DRC checking script ended on Saturday 22 August 2026 11:39:48 PM IST
